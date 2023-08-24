@@ -309,3 +309,51 @@
 .infoCardCallActionContainer--info-card-omega3-green :global(.vtex-button__label)::after{
   background-color: #4FC9C0;
 }
+
+.infoCardHeadline--info-card-supplements-slider{
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45.99px;
+  color: #fff;
+}
+.infoCardSubhead--info-card-supplements-slider{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.78px;
+  color: #fff;
+  margin-top: 20px;
+}
+.infoCardCallActionContainer--info-card-supplements-slider  :global(.vtex-button){
+  background-color: #fff;
+  border-radius: 50px;
+  color: #000;
+  border: none;
+}
+
+.infoCardCallActionContainer--info-card-supplements-slider :global(.vtex-button__label){
+  font-size: 16px;
+  line-height: 19.36px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  display: flex;
+  gap: 20px;
+  padding: 0 6px 0 20px;
+}
+
+.infoCardCallActionContainer--info-card-supplements-slider :global(.vtex-button__label)::after{
+  display: block;
+  content: '';
+  background-image: url(https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/b8fe0c74-6a7a-4e6b-b246-693de103beaa___ea33a11fb0f500273922e8c24605264b.png);
+  width: 28px;
+  height: 28px;
+  border-radius: 50px;
+  background-color: #734BAF;
+
+}
+
+.infoCardTextContainer--info-card-supplements-slider{
+  padding: 21px 0 0 63px;
+}
+.infoCardContainer--info-card-supplements-slider{
+  height: 400px;
+}

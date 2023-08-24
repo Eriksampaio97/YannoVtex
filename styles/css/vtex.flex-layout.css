@@ -108,3 +108,7 @@
   margin-bottom: 120px;
   gap: 40px;
 }
+
+.flexColChild--prices{
+  height: 17px;
+}

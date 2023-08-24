@@ -91,23 +91,23 @@
       "blockClass": "slider-banner-suplementos"
     },
     "children": [
-      "image#banner-suplementos-1", "image#banner-suplementos-2"
+      "info-card#supplements-slider", "info-card#supplements-slider"
     ]
     },
-    "image#banner-suplementos-1":{
-      "title": "Banner 1 Suplementos",
+    "info-card#supplements-slider":{
+      "title": "Card prescreva",
       "props": {
-        "src": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/276eb262-e04d-486c-992c-d3969e2e2dd1___76639d86b5a945d7c82ea79e3e710ccc.png",
-        "link": {"url": "#"},
-        "blockClass": "banner-suplementos"
+        "id": "info-card-prescreva",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/7b30d453-7e8c-4cc6-ab97-5cb249c0852a___f3e97014219400439890afb2710993b7.png",
+        "headline": "Um suplemento que vale por todos",
+        "subhead": "SO A-Z PET é indicado para reforçar o aporte nutricional dos nutrientes da fórmula para cães e gatos, em qualquer idade, de todas as raças e tamanhos. Esses suplementos são úteis quando há necessidade de fornecer nutrientes adicionais para ajudar na manutenção da saúde dos pets.",
+        "callToActionMode": "button",
+        "callToActionText": "Saiba mais",
+        "blockClass": "info-card-supplements-slider",
+        "textAlignment": "left"
       }
-    },
-    "image#banner-suplementos-2":{
-      "title": "Banner 2 Suplementos",
-      "props": {
-        "src": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/276eb262-e04d-486c-992c-d3969e2e2dd1___76639d86b5a945d7c82ea79e3e710ccc.png",
-        "link": {"url": "#"},
-        "blockClass": "banner-suplementos"
-      }
-  }
+    }
+
 }

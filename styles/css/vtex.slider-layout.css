@@ -19,7 +19,7 @@
 
 .sliderRightArrow--slider-banner-suplementos{
   display: block;
-  right: 60px;
+  right: 40px;
   content: '';
   background: url(https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/109e9fa7-2d89-4966-9eb4-f53dd0efb939___ac782af66b06809065c2221214901255.png) no-repeat!important;
   width: 32px;
@@ -29,7 +29,7 @@
 
 .sliderLeftArrow--slider-banner-suplementos {
   display: block;
-  left: 60px;
+  left: 40px;
   content: '';
   background: url(https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/b399492e-37b5-43d0-91ae-5bdd9496734c___4e7d95e3ce6aa18e293616dc1b60c688.png) no-repeat!important;
   width: 32px;
