@@ -1,0 +1,61 @@
+{
+  "flex-layout.row#prescreva":{
+    "title": "Prescreva produtos",
+    "props": {"blockClass": "prescreva-produtos"},
+    "children": ["info-card#prescreva"]
+  },
+  "info-card#prescreva":{
+    "title": "Card prescreva",
+    "props": {
+      "id": "info-card-prescreva",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/3214b2b6-ba18-444e-a8d8-3b2579e08464___d95d8c26a9e2e935c4afefb52f62dc7c.png",
+      "headline": "Prescreva produtos Yanno",
+      "subhead": "Sendo um prescritor, você tem descontos exclusivos nos suplementos Yanno ",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba mais",
+      "blockClass": "info-card-prescreva",
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#medicines": {
+    "title": "Info cards Ômega 3",
+    "props": {"blockClass": "row-omega-3"},
+    "children": [
+      "info-card#omega-1",
+      "info-card#omega-2"
+    ]
+  },
+  "info-card#omega-1":{
+    "title": "Omega 3 - info card 1",
+    "props": {
+      "id": "info-card-omega3-1",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/57868de2-1f53-44b0-b66f-ea8542672cc6___647a5f179b34cfdd931fa75bb5186e61.png",
+      "headline": "Ômega 3",
+      "subhead": "O ômega 3 é um produto canino com uma fórmula inovadora e exclusiva, desenvolvida para promover a saúde dos seus cães.",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba mais",
+      "blockClass": ["info-card-omega3", "info-card-omega3-blue"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#omega-2":{
+    "title": "Omega 3 - info card 2",
+    "props": {
+      "id": "info-card-omega3-2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/492ee023-d994-4e89-8511-e323a3e38a23___4346da2234364dda8c987d2ce0044180.png",
+      "headline": "Ômega 3",
+      "subhead": "O ômega 3 é um produto canino com uma fórmula inovadora e exclusiva, desenvolvida para promover a saúde dos seus cães.",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba mais",
+      "blockClass": ["info-card-omega3", "info-card-omega3-green"],
+      "textAlignment": "left"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.paginationDotsContainer--slider-home-banner{
+  bottom: -12px;
+}
+.paginationDot--slider-home-banner--isActive{
+  background-color: #FE7E00!important;
+}
+.paginationDot--slider-home-banner{
+  background-color: #FFDBDB;
+}
+.paginationDotsContainer--home-shelf-slider{
+  bottom: -23px;
+}
+.paginationDot--home-shelf-slider--isActive{
+  background-color: #8F8F8F!important;
+}
+.paginationDot--home-shelf-slider{
+  background-color: #E8E8E8;
+}
+
+.sliderRightArrow--slider-banner-suplementos{
+  display: block;
+  right: 60px;
+  content: '';
+  background: url(https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/109e9fa7-2d89-4966-9eb4-f53dd0efb939___ac782af66b06809065c2221214901255.png) no-repeat!important;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+}
+
+.sliderLeftArrow--slider-banner-suplementos {
+  display: block;
+  left: 60px;
+  content: '';
+  background: url(https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/b399492e-37b5-43d0-91ae-5bdd9496734c___4e7d95e3ce6aa18e293616dc1b60c688.png) no-repeat!important;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+}
+.caretIcon{
+  display: none;
+}
+.sliderLeftArrow--home-shelf-slider{
+  display: block;
+  left: -40px;
+  content: '';
+  background: url(https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/b73e012c-54e0-4149-84b1-f8ca97aefde5___ffa86d16944b36a5a4969354b97dc513.png) no-repeat!important;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+}
+.sliderRightArrow--home-shelf-slider{
+  display: block;
+  right: -40px;
+  content: '';
+  background: url(https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/e51559a0-9c89-455e-a921-8b11656221c7___251ec431a99f610d71062f86ecd79351.png) no-repeat!important;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 1400px) {
+  .sliderLeftArrow--home-shelf-slider{
+    left: 0px;
+  }
+  .sliderRightArrow--home-shelf-slider{
+    right: 0px;
+
+  }
+}

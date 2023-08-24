@@ -1,0 +1,62 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop#loja-yanno"
+    ],
+    "parent": {
+      "header": "header#empty"
+    }
+  },
+  "responsive-layout.desktop#loja-yanno":{
+    "children": [
+      "slider-layout#home-banner",
+      "flex-layout.row#beneficts-bar",
+      "flex-layout.row#pet-care",
+      "flex-layout.row#supplements",
+      "flex-layout.row#dogs-care",
+      "flex-layout.row#supplements-slider-banner",
+      "rich-text#shelf-title",
+      "flex-layout.row#products",
+      "flex-layout.row#prescreva",
+      "flex-layout.row#medicines"
+    ]
+  },
+  "flex-layout.row#products":{
+    "title": "Produtos",
+    "props": {"blockClass": "row-products"},
+    "children": [
+      "list-context.product-list#home-shelf"]
+  },
+  "rich-text#shelf-title":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "Cuide bem do seu pet com Yanno",
+      "blockClass": "home-shelf-title"
+    }
+  },
+  "list-context.product-list#home-shelf": {
+    "title": "Shelf 1",
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#slider-home-shelf"],
+    "props": {
+      "maxItems": 9,
+      "orderBy": "OrderByReleaseDateDESC",
+      "blockClass": "home-shelf"
+    }
+  },
+  "slider-layout#slider-home-shelf": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "maxItems": 6,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "home-shelf-slider"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "flex-layout.row#pet-care":{
+    "title": "Cuidados com o seu Pet",
+    "props": {"blockClass": "pet-care", "preventHorizontalStretch": true},
+    "children": [
+      "flex-layout.col#cuidados",
+      "flex-layout.col#medicines"
+  ]
+  },
+  "flex-layout.col#cuidados":{
+    "props": {"blockClass": "cuidados"},
+    "children": [
+      "rich-text#pet-care-title",
+      "image#pet-care-banner"
+  ]
+  },
+  "rich-text#pet-care-title":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "O que seu \n**pet** precisa",
+      "blockClass": "pet-care-title"
+    }
+  },
+  "image#pet-care-banner":{
+    "title": "Pet Care Banner",
+      "props": {
+        "src": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/e0d678c4-21de-4051-8a59-d4b4763efef2___3ac0589aee6b734df9f7dd57efc9a086.png",
+        "blockClass": "pet-care-image"
+      }
+  },
+  "flex-layout.col#medicines":{
+    "props": {"blockClass": "medicines"},
+    "children": [
+      "info-card#omega-3",
+      "info-card#az-pet",
+      "info-card#pelo-pele"
+  ]
+  },
+  "info-card#omega-3":{
+    "title": "Info card Omega 3",
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/a7954ebb-96c4-4209-bc29-d119bc1c3b8a___ab9dcaec03110aba5f847108426c7899.png",
+      "headline": "Ômega 3",
+      "subhead": "Previne doenças e melhora a disposição do seu pet",
+      "callToActionMode": "button",
+      "callToActionText": "Confira",
+      "blockClass": ["info-card-medicines", "info-card-orange"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#az-pet":{
+    "title": "Info card AZ PET",
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/024d5547-9d5a-4c2b-91f8-60d110c35645___47788a9de6641cc66be730fccb30815d.png",
+      "headline": "AZ PET",
+      "subhead": "Todos os nutrientes essenciais diários para a saúde do seu pet.  ",
+      "callToActionMode": "button",
+      "callToActionText": "Confira",
+      "blockClass": ["info-card-medicines", "info-card-az-pet"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#pelo-pele":{
+    "title": "Info card Pelo & Pele",
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/eb909f97-c948-4335-888c-21617fdfdfcf___cc144a7050240288a96f599040b56baf.png",
+      "headline": "Pelo & Pele",
+      "subhead": "Especialmente para fortalecer a pele e os pelos do seu pet. ",
+      "callToActionMode": "button",
+      "callToActionText": "Confira",
+      "blockClass": ["info-card-medicines", "info-card-pelo-pele"],
+      "textAlignment": "center"
+    }
+  }
+}

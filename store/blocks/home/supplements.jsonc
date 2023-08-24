@@ -1,0 +1,113 @@
+{
+  "flex-layout.row#supplements":{
+    "title": "Card Suplementos",
+    "props": {"blockClass": "row-supplements"},
+    "children": [
+      "info-card#supplements"
+    ]
+  },
+  "info-card#supplements":{
+    "title": "Card Suplementos",
+    "props": {
+      "id": "info-card-Suplementos",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/829cc765-d81d-49a7-a913-59cd6793788a___fc24a6b0a587984f13e2cd57570fc804.png",
+      "headline": "Suplementos que fazem a diferença!",
+      "subhead": " Responda nosso quis e desculpa o que seu pet precisa para uma vida mais saudável!",
+      "callToActionMode": "button",
+      "callToActionText": "Responder Quiz",
+      "blockClass": "info-card-supplements",
+      "textAlignment": "left"
+    }
+  },
+  "flex-layout.row#dogs-care":{
+    "title": "Cuidados necessários",
+    "props": {"blockClass": "row-dogs-care"},
+    "children": [
+      "info-card#care-1",
+      "info-card#care-2",
+      "info-card#care-3"
+    ]
+  },
+  "info-card#care-1":{
+    "title": "Card disposicao",
+    "props": {
+      "id": "info-card-disposicao",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/0a1d7720-acaf-43d7-83a1-bb9b17df1f18___13cf5436ebfefcf7766f4189d1183cc4.png",
+      "headline": "Pouca disposição?",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba Mais",
+      "blockClass": ["info-card-care", "info-card-care-orange"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#care-2":{
+    "title": "Card imunidade",
+    "props": {
+      "id": "info-card-imunidade",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/9b848700-5375-49c1-84da-ffbd0aec7f50___1604bb7517ef2892cdc206d2e8999de6.png",
+      "headline": "Baixa Imunidade?",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba Mais",
+      "blockClass": ["info-card-care", "info-card-care-purple"],
+      "textAlignment": "left"
+    }
+  },
+  "info-card#care-3":{
+    "title": "Card queda de pelos",
+    "props": {
+      "id": "info-card-queda-de-pelos",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/bb2d064c-2517-4645-98f9-2dd9c93e76cf___fc940892c927a940376ebf21a4ced5cf.png",
+      "headline": "Alergias e queda de pelos?",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba Mais",
+      "blockClass": ["info-card-care", "info-card-care-green"],
+      "textAlignment": "left"
+    }
+  },
+  "flex-layout.row#supplements-slider-banner":{
+    "title": "Banner Suplementos",
+    "props": {"blockClass": "row-slider-suplementos"},
+    "children": ["slider-layout#banner-suplementos"]
+  },
+  "slider-layout#banner-suplementos":{
+    "title": "Banner slider suplementos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": "slider-banner-suplementos"
+    },
+    "children": [
+      "image#banner-suplementos-1", "image#banner-suplementos-2"
+    ]
+    },
+    "image#banner-suplementos-1":{
+      "title": "Banner 1 Suplementos",
+      "props": {
+        "src": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/276eb262-e04d-486c-992c-d3969e2e2dd1___76639d86b5a945d7c82ea79e3e710ccc.png",
+        "link": {"url": "#"},
+        "blockClass": "banner-suplementos"
+      }
+    },
+    "image#banner-suplementos-2":{
+      "title": "Banner 2 Suplementos",
+      "props": {
+        "src": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/276eb262-e04d-486c-992c-d3969e2e2dd1___76639d86b5a945d7c82ea79e3e710ccc.png",
+        "link": {"url": "#"},
+        "blockClass": "banner-suplementos"
+      }
+  }
+}

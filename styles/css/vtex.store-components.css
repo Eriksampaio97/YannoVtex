@@ -1,0 +1,311 @@
+.container{
+  width: 100%;
+  max-width: 1340px;
+  margin: 0 auto;
+}
+.infoCardContainer--info-card-beneficts{
+  background-color: #D8FFFB;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 1px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 10px;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 12px 8px;
+}
+.infoCardImage--info-card-beneficts{
+  margin-left: 5px;
+}
+.infoCardHeadline,
+.infoCardSubhead{
+  margin: 0;
+}
+.infoCardImageContainer--info-card-beneficts{
+  width: 37px;
+  height: 32px;
+}
+.infoCardTextContainer--info-card-beneficts{
+  width: 85%;
+  align-items: flex-start;
+
+}
+.infoCardHeadline--info-card-beneficts{
+  margin: 0;
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #2A1246;
+}
+.infoCardSubhead--info-card-beneficts{
+  margin: 0;
+  font-size: 14px;
+  line-height: 18.75px;
+  font-weight: 400;
+  color: #2A1246;
+}
+.infoCardContainer--info-card-medicines{
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  border-radius: 10px;
+  padding: 15px;
+}
+.infoCardTextContainer--info-card-medicines{
+  width: 100%;
+  padding: 0;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.infoCardHeadline--info-card-medicines{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  color: #000;
+}
+.infoCardSubhead--info-card-medicines{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  color: #000;
+  text-align: left;
+}
+.infoCardContainer--info-card-orange{
+  background-color: #FFDBDB;
+}
+.infoCardContainer--info-card-az-pet{
+  background-color: #DAC9EB;
+}
+.infoCardContainer--info-card-pelo-pele{
+  background-color: #BFE4E1;
+}
+.infoCardCallActionContainer--info-card-medicines{
+  margin-bottom: 0;
+}
+.infoCardCallActionContainer--info-card-medicines :global(.vtex-button){
+  margin-top: 20px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  border-radius: 50px;
+  text-transform: capitalize;
+}
+.infoCardContainer--info-card-supplements{
+  background-color: transparent;
+
+}
+.infoCardTextContainer--info-card-supplements {
+  height: 100%;
+  justify-content: center;
+  padding: 60px 40px;
+}
+.infoCardImageContainer--info-card-supplements{
+  width: 80%;
+  max-height: 377px;
+}
+.infoCardImage--info-card-supplements{
+  object-fit: contain;
+  margin-left: 24px;
+  border-radius: 10px;
+}
+
+.infoCardHeadline--info-card-supplements{
+  color: #2A1246;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43.57px;
+}
+
+.infoCardSubhead--info-card-supplements{
+  color: #2A1246;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.2px;
+}
+.infoCardCallActionContainer--info-card-supplements :global(.vtex-button){
+  background-color: #fff;
+  border-radius: 50px;
+  color: #2A1246;
+  border: none;
+}
+
+.infoCardCallActionContainer--info-card-supplements :global(.vtex-button__label){
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: flex;
+  gap: 20px;
+  padding: 0 6px 0 20px;
+}
+
+.infoCardCallActionContainer--info-card-supplements :global(.vtex-button__label)::after{
+  display: block;
+  content: '';
+  background-image: url(https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/b8fe0c74-6a7a-4e6b-b246-693de103beaa___ea33a11fb0f500273922e8c24605264b.png);
+  width: 28px;
+  height: 28px;
+  background-color: #3377FA;
+  border-radius: 50px;
+
+}
+
+.infoCardContainer--info-card-care{
+  max-height: 180px;
+}
+.infoCardTextContainer--info-card-care{
+  height: 180px;
+  padding: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 40px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.infoCardHeadline--info-card-care{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.63px;
+  min-height: 80px;
+}
+.infoCardImageContainer--info-card-care{
+  height: 180px;
+}
+.infoCardImage--info-card-care{
+  height: 180px;
+}
+.infoCardTextContainer--info-card-care-orange{
+  background-color: #FFDBDB;
+}
+.infoCardTextContainer--info-card-care-purple{
+  background-color: #DAC9EB;
+}
+.infoCardTextContainer--info-card-care-green{
+  background-color: #BFE4E1;
+}
+.infoCardCallActionContainer--info-card-care :global(.vtex-button){
+  background-color: #fff;
+  border-radius: 50px;
+  color: #000;
+  border: none;
+}
+
+.infoCardCallActionContainer--info-card-care :global(.vtex-button__label){
+  font-size: 16px;
+  line-height: 19.36px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  display: flex;
+  gap: 20px;
+  padding: 0 6px 0 20px;
+}
+
+.infoCardCallActionContainer--info-card-care :global(.vtex-button__label)::after{
+  display: block;
+  content: '';
+  background-image: url(https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/b8fe0c74-6a7a-4e6b-b246-693de103beaa___ea33a11fb0f500273922e8c24605264b.png);
+  width: 28px;
+  height: 28px;
+  border-radius: 50px;
+
+}
+.infoCardCallActionContainer--info-card-care-orange :global(.vtex-button__label)::after{
+  background-color: #FE7E00;
+}
+.infoCardCallActionContainer--info-card-care-purple :global(.vtex-button__label)::after{
+  background-color: #A26EE5;
+}
+.infoCardCallActionContainer--info-card-care-green :global(.vtex-button__label)::after{
+  background-color: #4FC9C0;
+}
+.infoCardCallActionContainer--info-card-care{
+  margin: 0;
+}
+.imageElement--fake-whishlist{
+  position: relative;
+  right: -330px;
+}
+
+.infoCardHeadline--info-card-prescreva{
+  font-weight: 700;
+  color: #fff;
+  font-size: 36px;
+  line-height: 43.57px;
+}
+.infoCardSubhead--info-card-prescreva{
+  margin-top: 20px;
+  font-weight: 500;
+  color: #fff;
+  font-size: 22px;
+  line-height: 26.63px;
+}
+
+.infoCardCallActionContainer--info-card-prescreva :global(.vtex-button){
+  background-color: #fff;
+  border-radius: 50px;
+  color: #000;
+  border: none;
+}
+.infoCardCallActionContainer--info-card-prescreva :global(.vtex-button__label){
+  font-size: 16px;
+  line-height: 19.36px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  display: flex;
+  gap: 20px;
+  padding: 0 6px 0 20px;
+}
+.infoCardCallActionContainer--info-card-prescreva :global(.vtex-button__label)::after{
+  display: block;
+  content: '';
+  background-image: url(https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/b8fe0c74-6a7a-4e6b-b246-693de103beaa___ea33a11fb0f500273922e8c24605264b.png);
+  width: 28px;
+  height: 28px;
+  border-radius: 50px;
+  background-color: #2A1246;
+}
+.infoCardContainer--info-card-omega3 {
+  border-radius: 10px;
+}
+.infoCardHeadline--info-card-omega3{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38.73px;
+  color: #fff;
+}
+.infoCardSubhead--info-card-omega3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.2px;
+  color: #fff;
+  margin: 20px 0;
+}
+.infoCardCallActionContainer--info-card-omega3 :global(.vtex-button){
+  background-color: #fff;
+  border-radius: 50px;
+  color: #000;
+  border: none;
+}
+.infoCardCallActionContainer--info-card-omega3 :global(.vtex-button__label){
+  font-size: 16px;
+  line-height: 19.36px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  display: flex;
+  gap: 20px;
+  padding: 0 6px 0 20px;
+}
+.infoCardCallActionContainer--info-card-omega3 :global(.vtex-button__label)::after{
+  display: block;
+  content: '';
+  background-image: url(https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/b8fe0c74-6a7a-4e6b-b246-693de103beaa___ea33a11fb0f500273922e8c24605264b.png);
+  width: 28px;
+  height: 28px;
+  border-radius: 50px;
+
+}
+.infoCardCallActionContainer--info-card-omega3-blue :global(.vtex-button__label)::after{
+  background-color: #2A1246;
+}
+.infoCardCallActionContainer--info-card-omega3-green :global(.vtex-button__label)::after{
+  background-color: #4FC9C0;
+}

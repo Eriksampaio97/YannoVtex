@@ -1,0 +1,12 @@
+.container--home-shelf{
+  border: 1px solid #DADADA;
+  width: 390px;
+  max-width: 390px!important;
+}
+
+.nameWrapper{
+  border: 1px solid #DADADA;
+  background-color: #F2FFFE;
+  width: 100%;
+  padding: 10px;
+}

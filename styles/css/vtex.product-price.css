@@ -1,0 +1,23 @@
+.listPriceValue--summary{
+  color: #8E8E93;
+  font-size: 12px;
+  line-height: 14.52px;
+  font-weight: 400;
+}
+.sellingPriceValue--summary{
+  color: #000;
+  font-size: 20px;
+  line-height: 24.2px;
+  font-weight: 700;
+}
+
+.savings--summary{
+  background-color: #80CBC4;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 3px 6px;
+  display: flex;
+  align-items: center;
+}

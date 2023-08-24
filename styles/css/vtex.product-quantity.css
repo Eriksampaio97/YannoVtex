@@ -1,0 +1,31 @@
+.quantitySelectorTitle{
+  display: none;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper-container){
+  border: 1px solid #DADADA;
+  border-radius: 10px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button){
+  border: none;
+  background-color: #fff;
+  color: #16C346;
+  font-size: 18px;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button){
+  border: none;
+  color: #16C346;
+  font-size: 18px;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input){
+  border: none;
+  width: 20px;
+  font-size: 24px;
+}
+.quantitySelectorContainer{
+  margin: 0;
+}

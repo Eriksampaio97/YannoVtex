@@ -1,0 +1,110 @@
+.flexRowContent{
+  width: 100%;
+  max-width: 1340px;
+  margin: 0 auto;
+}
+.flexRow--beneficts-bar{
+  margin-top: 60px;
+}
+.flexRowContent--beneficts-bar{
+  gap: 30px;
+}
+.flexRow--pet-care{
+  margin-top: 80px;
+}
+.flexRowContent--pet-care{
+  gap: 40px;
+}
+.flexCol--medicines{
+  flex-direction: row;
+  gap: 20px;
+}
+.flexColChild--medicines{
+  max-width: 308px;
+}
+.flexRowContent--row-yanno-footer-logo .stretchChildrenWidth{
+  justify-content: flex-start;
+}
+.flexRowContent--payment-methods{
+  align-items: center;
+}
+.flexCol--col-social-media{
+  flex-direction: row;
+  gap: 20px;
+}
+.flexCol--col-organization{
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.flexRowContent--plataform-managed{
+  flex-direction: column;
+}
+.flexRowContent--managed{
+  flex-direction: column;
+}
+
+.flexRowContent--row-supplements{
+  margin: 125px 0;
+  height: fit-content;
+  max-height: 380px;
+  background: linear-gradient(0deg, rgba(225,226,230,1) 100%, rgba(221,222,227,1) 100%, rgba(209,213,216,1) 100%);
+  border-radius: 10px;
+}
+.flexRowContent--row-slider-suplementos{
+  margin-top: 60px;
+}
+
+.flexRowContent--buy-options :global(.vtex-button){
+  background-color: #16C346;
+  border: none;
+  height: 49px!important;
+  width: 49px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.flexRowContent--buy-options :global(.vtex-button__label){
+  display: block;
+  position: relative;
+  left: 10px;
+  content: '';
+  background: url(https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/e131ffb5-9e4d-4d0a-b6dd-08c3a30f332a___478b9a60742cfbcb2b94da667ca3e002.png) no-repeat;
+  width: 26px;
+  height: 26px;
+  border-radius: 50px;
+  margin: 0;
+}
+
+.flexCol--prices  {
+  padding: 0 20px;
+  display: flex;
+  align-items: flex-start;
+}
+.flexRowContent--product-values {
+  display: flex;
+  justify-content: center;
+}
+.flexRowContent--buy-options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRow--row-products{
+  margin-bottom: 60px;
+}
+
+.flexRowContent--prescreva-produtos{
+  height: 380px;
+  margin-bottom: 90px;
+}
+.flexRowContent--row-omega-3{
+  height: 360px;
+  margin-bottom: 120px;
+  gap: 40px;
+}

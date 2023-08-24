@@ -1,0 +1,56 @@
+.paragraph--pet-care-title{
+  margin: 0;
+  font-size: 42px;
+  line-height: 50.83px;
+  font-weight: 400;
+  color: #000;
+}
+.container--title-footer-menu{
+  justify-content: flex-start;
+}
+
+.paragraph--title-footer-menu{
+  margin: 0;
+}
+.strong--title-footer-menu{
+  color: #FE7E00;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.strong--title-footer-payments{
+  color: #FE7E00;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.09px;
+  text-align: center;
+}
+.strong--title-footer-plataform{
+  color: #FE7E00;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  text-align: center;
+  white-space: nowrap;
+}
+.container--footer-copyright-text{
+  margin-top: 20px;
+  justify-content: center;
+}
+.paragraph--footer-copyright-text{
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.52px;
+  text-align: center;
+}
+
+.wrapper--home-shelf-title{
+  margin: 115px auto 0 auto;
+}
+.paragraph--home-shelf-title{
+  font-size: 32px;
+  line-height: 38.73px;
+  font-weight: 400;
+}

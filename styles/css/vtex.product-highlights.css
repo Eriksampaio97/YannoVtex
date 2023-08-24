@@ -1,0 +1,12 @@
+.productHighlightText{
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #ECDAFE;
+  color: #2A1246;
+  padding: 0 10px;
+  border-radius: 50px;
+  font-size: 12px;
+  line-height: 14.52px;
+  text-align: center;
+}

@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#beneficts-bar":{
+    "title": "Barra de benefícios",
+    "props": {"blockClass": "beneficts-bar"},
+    "children": [
+      "info-card#freight-bar",
+      "info-card#installment-bar",
+      "info-card#percentage-bar",
+      "info-card#safe-buy-bar"
+  ]
+  },
+  "info-card#freight-bar":{
+    "title": "Info card frete",
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/16bb259e-29ce-4848-ac9d-076cb6faeef9___43c658f727bc22a0508418207ba506e2.png",
+      "headline": "Frete Grátis",
+      "subhead": "Para compras acima de R$150,00",
+      "callToActionMode": "none",
+      "blockClass": "info-card-beneficts",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#installment-bar":{
+    "title": "Info card Parcelamento",
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/7705ec96-1e3a-4e56-838a-8852092803c2___f0487cbc59136bcc7963748c0fca966e.png",
+      "headline": "Parcele Suas compras",
+      "subhead": "Parcele em até 5 vezes sem juros",
+      "callToActionMode": "none",
+      "blockClass": "info-card-beneficts",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#percentage-bar":{
+    "title": "Info card Economia",
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/d963d615-f2fd-4ae5-a0f3-ebecf38f3009___833dc8d172fe12c8cff0e6e4b15d7ad3.png",
+      "headline": "Mais Economia",
+      "subhead": "Compre os nossos Kits",
+      "callToActionMode": "none",
+      "blockClass": "info-card-beneficts",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#safe-buy-bar":{
+    "title": "Info card Compra segura",
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/54325b7b-88ac-496a-9fa0-1ef0cf097a92___d9d408e105045ad8cc540973bdb25304.png",
+      "headline": "Compra Segura",
+      "subhead": "Loja com SSL e proteção de dados",
+      "callToActionMode": "none",
+      "blockClass": "info-card-beneficts",
+      "textAlignment": "center"
+    }
+  }
+}

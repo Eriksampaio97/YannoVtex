@@ -1,0 +1,181 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop#yanno"
+    ]
+  },
+  "footer-layout.desktop#yanno": {
+    "children": [
+      "flex-layout.row#footer-logo",
+      "flex-layout.row#footer-menu",
+      "flex-layout.row#footer-link",
+      "flex-layout.row#footer-copyright"
+    ],
+    "props":{"blockClass": "footer-yanno"}
+  },
+  "image#logo-yanno":{
+    "title": "Logo Footer",
+    "props": {
+      "src": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/c555cd3b-f2f0-4eb1-a970-19c5b8e2da58___bcc0ff36c62e9561d917f99cc4a1aaa5.png",
+      "blockClass": "logo-footer"
+    }
+  },
+  "flex-layout.row#footer-logo": {
+    "children": [
+      "image#logo-yanno"
+    ],
+    "props": {
+      "blockClass": "row-yanno-footer-logo",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.row#footer-menu": {
+    "children": [
+      "vtex.menu@2.x:menu#my-account",
+      "vtex.menu@2.x:menu#products",
+      "vtex.menu@2.x:menu#about",
+      "vtex.menu@2.x:menu#need-help"
+    ],
+    "props": {
+      "blockClass": "row-yanno-footer",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.row#footer-link": {
+    "children": [
+      "flex-layout.col#social-media",
+      "flex-layout.col#payments-method",
+      "flex-layout.col#organization"
+    ],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "flex-layout.col#social-media":{
+    "title": "Redes Sociais",
+    "props": {"blockClass": "col-social-media"},
+    "children": [
+      "image#instagram",
+      "image#facebook",
+      "image#youtube"
+    ]
+  },
+  "image#instagram":{
+    "title": "Logo instagram",
+    "props": {
+      "src": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/7d3c2044-0956-4050-a486-11c364ec76c6___feed944e1fe06e3a7c9393257048c8d3.png",
+      "link": {"url": "#", "openNewTab": true},
+      "blockClass": "links-social"
+    }
+  },
+  "image#facebook":{
+    "title": "Logo facebook",
+    "props": {
+      "src": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/fd1ccf0a-c8cc-4287-bcf3-8177c5a03dce___218a31743adae3cc782c46df8260e036.png",
+      "link": {"url": "#", "openNewTab": true},
+      "blockClass": "links-social"
+    }
+  },
+  "image#youtube":{
+    "title": "Logo instagram",
+    "props": {
+      "src": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/5a45efec-bb39-42b1-b3b7-ccdb20fe01b5___2ba741b0d72c5cd4f35a75c4a77c601e.png",
+      "link": {"url": "#", "openNewTab": true},
+      "blockClass": "links-social"
+    }
+  },
+  "flex-layout.col#payments-method":{
+    "title": "Formas de pagamento",
+    "props": {"blockClass": "col-payment-method"},
+    "children": [
+      "rich-text#title-payments-method",
+      "image#payment-methods"
+    ]
+  },
+  "rich-text#title-payments-method":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Pagamento**",
+      "blockClass": "title-footer-payments"
+    }
+  },
+  "image#payment-methods":{
+    "title": "Logo instagram",
+    "props": {
+      "src": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/fd6bdb90-a3d8-47b4-84bd-97c18ceddd1a___9b8cf4d9a829922a06c415fa7f5851f6.png",
+      "blockClass": "links-social"
+    }
+  },
+  "flex-layout.col#organization":{
+    "title": "Organização",
+    "props": {"blockClass": "col-organization"},
+    "children": [
+      "flex-layout.row#plataform",
+      "flex-layout.row#managed"
+    ]
+  },
+  "flex-layout.row#plataform":{
+    "title": "Plataforma",
+    "children": [
+      "rich-text#vtex",
+      "image#vtex"
+    ],
+    "props": {"blockClass": "plataform-managed"}
+  },
+  "flex-layout.row#managed":{
+    "title": "Plataforma",
+    "children": [
+      "rich-text#managed",
+      "image#managed"
+    ],
+    "props": {"blockClass": "managed"}
+  },
+  "rich-text#vtex":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Plataforma**",
+      "blockClass": "title-footer-plataform"
+    }
+  },
+  "image#vtex":{
+    "title": "Logo instagram",
+    "props": {
+      "src": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/4b5871d5-e30b-42a9-9bb7-6c03f4b2898c___7951fff2fecb1d3b0fe1a26756e5dcd4.png",
+      "blockClass": "links-social"
+    }
+  },
+  "rich-text#managed":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**managed by:**",
+      "blockClass": "title-footer-plataform"
+    }
+  },
+  "image#managed":{
+    "title": "Logo instagram",
+    "props": {
+      "src": "https://socialsahomolog.vtexassets.com/assets/vtex.file-manager-graphql/images/fcf2f859-528b-4c95-9309-cb4326c23229___19706087bd420641103b5a570e408af8.png",
+      "blockClass": "links-social"
+    }
+  },
+
+  "flex-layout.row#footer-copyright": {
+    "children": [
+      "rich-text#footer"
+    ],
+    "props": {
+      "blockClass": "footer-copyright"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "A loja Yanno é operada pela Social S.A. CNPJ: 28.511.223/0001-32/Endereço: R. Fernando Falcão, 1111 - Vila Claudia, São Paulo - SP 2023 Copyright Yanno. Todos os direitos reservados",
+      "blockClass": "footer-copyright-text"
+    }
+  }
+}

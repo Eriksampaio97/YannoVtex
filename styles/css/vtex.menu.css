@@ -1,0 +1,14 @@
+.menuItem--footer-menu-item--isClosed{
+  display: flex;
+  justify-content: flex-start;
+}
+.styledLinkContainer--footer-menu-item{
+  margin: 0;
+}
+.styledLinkContent--footer-menu-item{
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+}
